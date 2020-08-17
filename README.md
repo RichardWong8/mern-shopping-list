@@ -44,14 +44,14 @@ add
 "proxy": "http://localhost:5000",
 ```
 
-# Modify main package.json
+## Modify main package.json
 ```
 add
 "client": "npm start --prefix client",
 "dev": "concurrently \"npm run server\" \"npm run client\""
 ```
 
-# Install front end dependencies
+## Install front end dependencies
 ```
 npm i bootstrap reactstrap uuid react-transition-group
 
